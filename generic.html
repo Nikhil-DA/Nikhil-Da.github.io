@@ -1,0 +1,176 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Nikhil Chauhan</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css"></noscript>
+    <style>
+        /* Intro / Hero Section */
+        #intro {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            padding: 0 1rem;
+            text-align: center;
+            background-color: #2b1b38; /* dark background for white text */
+            color: #ffffff;
+        }
+        
+        
+        .hero-header {
+            font-size: clamp(2.5rem, 5vw, 4rem);
+            font-weight: 700;
+            margin-bottom: 1rem;
+            text-transform: none;
+        }
+     
+
+        /* Card Grid */
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+        .card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 1.5rem;
+            box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+        }
+        .card h3 {
+            margin-bottom: 1rem;
+            color: #333;
+        }
+        .card p {
+            flex-grow: 1;
+            color: #555;
+        }
+        .card a {
+            margin-top: 1rem;
+        }
+        .center-text {
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+    </style>
+</head>
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+			<div id="intro">
+				<h1 class="hero-header">Analytics, Tools & Tales</h1>
+				<p>I’m <a href="https://www.linkedin.com/in/nikhil-chauhan-755858371/" target="_blank" rel="noopener noreferrer">Nikhil Chauhan</a>, 
+				a Data Analyst leveraging statistical expertise to transform complex data into actionable insights.
+				<br> I uncover trends, optimize decisions, and help organizations succeed.</p>
+
+				<!-- Optional spacer to align with page 1 -->
+				<div class="hero-spacer"></div>
+			</div>
+
+
+		
+		
+
+        <!-- Navigation -->
+        <nav id="nav">
+            <ul class="links">
+                <li><a href="index.html">Projects</a></li>
+                <li class="active"><a href="generic.html">About Me</a></li>
+            </ul>
+        </nav>
+
+        <!-- Main -->
+        <div id="main">
+
+            <!-- Behind the Work Section -->
+            <section class="post">
+                <header class="major center-text">
+                    <h2>Behind the Work</h2>
+                    <p>
+                        I love exploring data and discovering patterns that might be overlooked. 
+                        Using statistical methods and hands-on analysis, I transform raw numbers into clear, actionable insights. 
+                        My goal is to make data understandable, useful, and even a little fun — turning complex datasets into stories that help drive smarter decisions. 
+                        Every project is a chance to learn something new and bring a little clarity (and curiosity) to the world of numbers.
+                    </p>
+                </header>
+
+                <!-- Card Grid -->
+                <div class="card-grid">
+
+                    <!-- Education -->
+                    <div class="card">
+                        <h3>👨‍🎓 Education</h3>
+                        <p>MSc in Statistics with a strong interest in Data Analytics. I specialize in exploring data, finding meaningful insights, and applying statistical knowledge to real-world problems.</p>
+                    </div>
+
+                    <!-- Skills -->
+                    <div class="card">
+                        <h3>💻 Skills</h3>
+                        <p>Proficient in SQL, Python, Power BI, Excel, and R. Experienced in data cleaning, visualization, and building end-to-end analytics projects that drive decision-making.</p>
+                    </div>
+
+                    <!-- Resume -->
+                    <div class="card">
+                        <h3>📂 Resume</h3>
+                        <p>Want to know more details about my background? Download my resume below.</p>
+                        <a href="resume.pdf" class="button primary icon solid fa-download">Download Resume</a>
+                    </div>
+
+                    <!-- Connect -->
+						<div class="card">
+							<h3>🌐 Connect</h3>
+							<p>Let’s connect and discuss data, analytics, or opportunities. You can find me on LinkedIn, email me, or call me directly.</p>
+
+							<a href="https://www.linkedin.com/in/nikhil-chauhan-755858371/" 
+							class="button icon brands fa-linkedin" target="_blank" rel="noopener noreferrer">
+							LinkedIn
+							</a>
+
+							<a href="mailto:chauhannikhil.email@gmail.com" 
+							class="button icon solid fa-envelope">
+							Email
+							</a>
+
+							<a href="tel:+918938075012" 
+							class="button icon solid fa-phone">
+							+91 8938075012
+							</a>
+						</div>
+
+            </section>
+
+        </div>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <p class="center-text">© Nikhil Chauhan | Data Analytics Portfolio</p>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+</html>
