@@ -1,32 +1,25 @@
-Massively by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Nikhil Chauhan – Data Analytics Portfolio  
 
+This repository hosts my **Data Analytics Portfolio website**, showcasing my skills, background, and ways to connect with me.  
 
-This is Massively, a text-heavy, article-oriented design built around a huge background
-image (with a new parallax implementation I'm testing) and scroll effects (powered by
-Scrollex). A *slight* departure from all the one-pagers I've been doing lately, but one
-that fulfills a few user requests and makes use of some new techniques I've been wanting
-to try out. Enjoy it :)
+---
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+## Template Credit  
+This portfolio was built using the **“Massively” template** by [HTML5 UP](https://html5up.net).  
+It is free for personal and commercial use under the **Creative Commons Attribution 3.0 License** ([read license](https://html5up.net/license)).  
 
-(* = not included)
+**Original Template Credits:**  
+- **Design & Template:** [AJ](https://html5up.net) (@ajlkn)  
+- **Demo Images:** [Unsplash](https://unsplash.com)  
+- **Icons:** [Font Awesome](https://fontawesome.io)  
+- **Libraries Used:** [jQuery](https://jquery.com), [Scrollex](https://github.com/ajlkn/jquery.scrollex), [Responsive Tools](https://github.com/ajlkn/responsive-tools)  
 
-AJ
-aj@lkn.io | @ajlkn
+**Customizations:**  
+This template has been customized to reflect my personal branding and portfolio.  
 
+---
 
-Credits:
-
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Scrollex (github.com/ajlkn/jquery.scrollex)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+## Contact  
+- **LinkedIn:** [Nikhil Chauhan](https://www.linkedin.com/in/nikhil-chauhan-755858371/)  
+- **GitHub:** [Nikhil-DA](https://github.com/Nikhil-DA)  
+- **Email:** chauhannikhil.email@gmail.com  
